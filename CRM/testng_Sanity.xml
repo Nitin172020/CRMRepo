@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_CRM">
+  <test name="Test_Sanity">
+  
+  <groups>		
+   <run>		
+    <include name="Sanity" />		
+   </run>		
+  </groups>
+    <classes>
+      <class name="com.crm.testcases.TestNGGroupDemo"/>
+    </classes>
+  </test> <!-- Test_Sanity -->
+</suite> <!-- Suite_CRM -->
